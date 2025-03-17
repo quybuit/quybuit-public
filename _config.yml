@@ -1,0 +1,44 @@
+# site settings
+title: Quy Bui Tan
+subtitle: Software Engineer
+email: quybuit@gmail.com
+description: A passion and skilled engineer with big dream
+baseurl: "/about" # the subpath of your site, e.g. /blog
+url: https://quybuit.github.io/about/
+author: Quy Bui
+street_address: 135 Bui Huu Nghia Street, Binh Thanh Ward, HCMC, VietNam
+city: Ho Chi Minh City
+state: HCM
+zip_code: 700000
+country: Viet Nam
+phone: +84 857096994
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub:
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn:
+  Twitter:
+  Facebook:
+  Slack:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
